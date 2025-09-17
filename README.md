@@ -27,6 +27,10 @@
 4. **Transfer to Offline Machine**: Copy the `packages/` folder and LoadRPackages.ps1 to the offline system via USB, network share, etc.
 5. Run .\LoadRPackages.ps1 on the offline system that already has R installed.
 
+## Verifying a Package is loaded into R
+example psych R Package - 
+require(psych)  # Returns TRUE if loaded successfully
+
 
 ## License
 
